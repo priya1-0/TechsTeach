@@ -1,0 +1,85 @@
+/* styles.css */
+@import-normalize;
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Updated header styles with Bootstrap */
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Updated main styles with Bootstrap */
+main {
+  
+  padding: 1rem;
+}
+
+/* Updated aside (sidebar) styles with Bootstrap */
+aside {
+  flex: 0 0 20%;
+  background-color: #0d0d0d;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+/* Updated blog post preview styles with Bootstrap */
+.blog-post {
+  background-color: #fff; /* Change the background color for better contrast */
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px solid #dee2e6; /* Use Bootstrap's border class */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.blog-post h3 {
+  margin-top: 0;
+  color: #333; /* Change the text color */
+  text-decoration: underline;
+}
+
+.blog-post p {
+  color: #555; /* Change the text color */
+}
+
+/* Updated footer styles with Bootstrap */
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Add Neon Colors (Bootstrap classes) */
+.header-logo {
+  color: #f48fb1;
+  font-size: 1.8rem;
+}
+
+.sidebar-link {
+  color: #f44336;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar-link:hover {
+  color: #ffc107;
+}
+
+/* Responsive Styles - Bootstrap already handles responsive classes */
+/* No changes needed in the media query */
+
+/* Additional Custom Styles */
+/* Add any additional custom styles you want to apply */
